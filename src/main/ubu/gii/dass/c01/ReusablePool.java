@@ -12,7 +12,7 @@ public final class ReusablePool{
 	private Vector<Reusable> reusables;
 	private static ReusablePool instance;
 
-	private ReusablePool(int size){
+	public ReusablePool(int size){
 		reusables = new Vector<Reusable>(size);
 		for(int i=0;i<size;i++)
 			reusables.add(new Reusable());
