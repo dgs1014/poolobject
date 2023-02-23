@@ -46,6 +46,7 @@ public class ReusablePoolTest {
 		
 		ReusablePool i2 = pool2.getInstance();
 		assertNotEquals(i2,null);
+		
 	}
 
 	/**
